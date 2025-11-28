@@ -1,0 +1,54 @@
+{
+  "name": "repository-dispatch",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Create a repository dispatch event",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=24.4.0"
+  },
+  "scripts": {
+    "build": "tsc && ncc build",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/repository-dispatch.git"
+  },
+  "keywords": [
+    "actions",
+    "repository",
+    "dispatch"
+  ],
+  "author": "step-security",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/step-security/repository-dispatch/issues"
+  },
+  "homepage": "https://github.com/step-security/repository-dispatch#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^18.19.130",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vercel/ncc": "^0.38.4",
+    "eslint": "^8.57.1",
+    "eslint-plugin-github": "^4.10.2",
+    "eslint-plugin-jest": "^25.7.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jest": "^27.5.1",
+    "jest-circus": "^29.7.0",
+    "js-yaml": "^4.1.1",
+    "prettier": "^3.6.2",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.9.5"
+  }
+}

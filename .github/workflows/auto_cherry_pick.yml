@@ -11,6 +11,11 @@ on:
         description: "Run mode: cherry-pick or verify"
         required: false
         default: "cherry-pick"
+      node_version:
+        description: "Specify Node.js version"
+        required: false
+        type: string
+        default: "24"
 
   pull_request:
     types: [labeled, opened, synchronize]
@@ -30,3 +35,4 @@ jobs:
       repo-name: "repository-dispatch"
       base_branch: ${{ inputs.base_branch }}
       mode: ${{ github.event_name == 'pull_request' && 'verify' || inputs.mode }}
+      node_version: ${{ inputs.node_version || '24' }}

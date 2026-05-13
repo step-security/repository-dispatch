@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # Repository Dispatch
 [![CI](https://github.com/step-security/repository-dispatch/workflows/CI/badge.svg)](https://github.com/step-security/repository-dispatch/actions?query=workflow%3ACI)
 

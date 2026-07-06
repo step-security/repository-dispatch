@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/repository-dispatch",
+   "upstream_full_repo_name": "peter-evans/repository-dispatch",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v4.0.2",
+     "created_at": "2026-05-13T14:13:36Z",
+     "published_at": "2026-05-14T01:32:04Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
